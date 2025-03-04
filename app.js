@@ -454,4 +454,3 @@ function GoLiveModal({ onClose, onStartStream, room }) {
 
 const root = ReactDOM.createRoot(document.getElementById('app'));
 root.render(<App />);
-
