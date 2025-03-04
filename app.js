@@ -1,6 +1,3 @@
-import React, { useState, useEffect, useRef } from 'react';
-import ReactDOM from 'react-dom/client';
-
 // Main App Component
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -451,6 +448,8 @@ function GoLiveModal({ onClose, onStartStream, room }) {
     </div>
   );
 }
+
+const { useState, useEffect, useRef } = React;
 
 const root = ReactDOM.createRoot(document.getElementById('app'));
 root.render(<App />);
